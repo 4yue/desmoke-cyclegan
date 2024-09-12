@@ -67,5 +67,4 @@ if __name__ == '__main__':
     config = args.__dict__
 
     exp = Exp(args)
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>  start <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<')
     exp.train(args)
